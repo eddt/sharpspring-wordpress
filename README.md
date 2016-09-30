@@ -1,21 +1,9 @@
 # sharpspring-wordpress
-SharpSpring Wordpress Plugin by Accel Web Marketing
-
-=== SharpSpring Wordpress ===
-Contributors: johnrau
-Tags: sharpspring, sharp spring, marketing automation
-Requires at least: 4
-Tested up to: 4.5.2
-Stable tag: 1.2
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Customize your Wordpress site for each visitor by showing personalized content based on their profile in SharpSpring.
 
-== Description ==
+**Description**
 This plugin lets you (1) add SharpSpring tracking code to Wordpress and (2) pull contact data from SharpSpring and customize your Wordpress site accordingly.
-
-**Get up to 15% off your monthly SharpSpring subscription!** As an official SharpSpring Partner, we are able to offer discounted SharpSpring Licenses. [See our special pricing here](https://www.accelweb.ca/sharpspring-pricing-discount/)
 
 It uses Shortcodes, which let you put content in your pages without any coding knowledge. Anyone who knows how to use SharpSpring can use this plugin, no coding required!
 
@@ -37,13 +25,13 @@ It uses Shortcodes, which let you put content in your pages without any coding k
 
 Yes! You can include these functions in your template files using Wordpress' do_shortcode() function.
 
-== Installation ==
+**Installation**
 1. Download the plugin and upload it to your wp-content/plugins/ directory or install through the Wordpress Plugins page
 2. Activate the plugin
 3. Go to SharpSpring > Settings and enter your SharpSpring API credentials and tracking code
 4. To use shortcodes/custom content, refer to the guide in SharpSpring > Documentation
 
-== Frequently Asked Questions ==
+**Frequently Asked Questions**
 **Who made this plugin?**
 [Accel Web Marketing](https://www.accelweb.ca). This plugin is not made or maintained by SharpSpring.
 
@@ -59,16 +47,3 @@ The number 1 issue is incorrectly entering contact field names in the shortcodes
 
 **Can I include these shortcodes in my template files?**
 Yes! Use Wordpress' [do_shortcode()](https://developer.wordpress.org/reference/functions/do_shortcode/) function.
-
-== Screenshots ==
-1. Settings page
-2. Adding shortcodes to a page
-3. Dynamic output from SharpSpring contact data
-
-== Changelog ==
-= 1.0 =
-* Initial release
-= 1.1 =
-* Bug fixes
-= 1.2 =
-* Added capability to include shortcodes inside of shortcodes (i.e. if this person is a lead, show a sentence including their first name)
